@@ -27,6 +27,7 @@ PRINT CAST(@x AS varchar(10)) + ' + ' +
 /*
  * Câu 2
  */
+
 CREATE PROC usp --Cau2
 AS
 
