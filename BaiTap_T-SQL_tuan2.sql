@@ -1,4 +1,6 @@
-﻿/*
+﻿USE ONLINE_SHOP
+GO
+/*
 	Viết stored-procedure tính tổng 2 số a, b và in kết quả theo định dạng sau:
 	‘Tổng 2 số’ + @a + ‘và’ + @b ‘là:’ + @kq
 */
@@ -156,3 +158,33 @@ GO
 
 EXEC usp_DangNhap 'KH00000002', '123'
 EXEC usp_DangNhap 'KH00000002', '1235'
+
+/*
+	Viết stored-procedure thêm một sản phẩm mới
+	Input: thông tin sản phẩm
+	Output: 1: Thêm sản phẩm thành công
+			2: Mã sản phẩm đã tồn tại
+		   -1: Lỗi hệ thống
+*/
+
+ALTER PROC usp_AddProducts @MaSP nchar(10), @tenSP nvarchar(50), @MoTa nvarchar(MAX), @DonGia real, @SoLuongTon int, @SoLuongToiThieu int, @NgayDang datetime, @TinhTrang nvarchar(50), @MaDanhMuc nvarchar(10)
+AS
+	DECLARE @KiemTra nchar(10);
+	SELECT @KiemTra = MaSanPham FROM SANPHAM WHERE MaSanPham = @MaSP
+	IF(@KiemTra IS NOT NULL)
+		PRINT N'Mã sản phẩm đã tồn tại'
+	ELSE 
+	BEGIN
+		BEGIN TRY
+			INSERT INTO SANPHAM VALUES(@MaSP, @tenSP, @MoTa, @DonGia, @SoLuongTon, @SoLuongToiThieu, @NgayDang, @TinhTrang, @MaDanhMuc)
+			PRINT N'Thêm Thành Công'
+		END TRY
+		BEGIN CATCH
+			PRINT N'Lỗi hệ thống'
+		END CATCH
+	END
+GO
+
+EXEC usp_AddProducts 'SP00000011', N'Tiệc Buffet tối Cơm Nắm Việt 23', N'Thưởng thức tiệc Buffet Cơm Nắm Việt được thay đổi hằng ngày như: Tôm nướng, mực nướng, cá kèo nướng, sò huyết xào tỏi, cua đồng rang me, các loại Salad trộn, xúc xích nướng, bánh tôm hồ tây... cùng các loại bánh đặc trưng vùng miền và kem tươi...', 259000, 2000, 300, '2009-01-01 00:00:00.000', N'Khuyến mãi', 'DM00004'
+EXEC usp_AddProducts 'SP00000012', N'Tiệc Buffet tối Cơm Nắm Việt 23', N'Thưởng thức tiệc Buffet Cơm Nắm Việt được thay đổi hằng ngày như: Tôm nướng, mực nướng, cá kèo nướng, sò huyết xào tỏi, cua đồng rang me, các loại Salad trộn, xúc xích nướng, bánh tôm hồ tây... cùng các loại bánh đặc trưng vùng miền và kem tươi...', 259000, 2000, 300, '2009-01-01 00:00:00.000', N'Khuyến mãi', 'DM00004'
+EXEC usp_AddProducts 'SP000000112', N'Tiệc Buffet tối Cơm Nắm Việt 23', N'Thưởng thức tiệc Buffet Cơm Nắm Việt được thay đổi hằng ngày như: Tôm nướng, mực nướng, cá kèo nướng, sò huyết xào tỏi, cua đồng rang me, các loại Salad trộn, xúc xích nướng, bánh tôm hồ tây... cùng các loại bánh đặc trưng vùng miền và kem tươi...', 2000, 300, '2009-01-01 00:00:00.000', N'Khuyến mãi', 'DM00004'
