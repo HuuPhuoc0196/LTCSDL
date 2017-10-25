@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\bin\Debug\QLSV.DAO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\bin\Debug\QLSV.DAO.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\bin\Debug\QLSV.DTO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\bin\Debug\QLSV.DTO.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\obj\Debug\QLSV.DAO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DAO\obj\Debug\QLSV.DAO.pdb

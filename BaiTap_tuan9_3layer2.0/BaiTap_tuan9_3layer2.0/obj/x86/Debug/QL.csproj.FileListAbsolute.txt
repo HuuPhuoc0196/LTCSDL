@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\bin\BaiTap_tuan9_3layer2.0.exe.config
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\bin\BaiTap_tuan9_3layer2.0.exe
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\bin\BaiTap_tuan9_3layer2.0.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2._0.Properties.Resources.resources
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2._0.QLNV.resources
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2.0.exe
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2.0.pdb

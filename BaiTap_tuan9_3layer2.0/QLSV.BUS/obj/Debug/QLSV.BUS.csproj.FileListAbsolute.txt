@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\bin\Debug\QLSV.BUS.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\bin\Debug\QLSV.BUS.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\bin\Debug\QLSV.DAO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\bin\Debug\QLSV.DTO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\bin\Debug\QLSV.DAO.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\bin\Debug\QLSV.DTO.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\obj\Debug\QLSV.BUS.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.BUS\obj\Debug\QLSV.BUS.pdb

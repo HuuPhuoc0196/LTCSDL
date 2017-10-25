@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\bin\QLSV.DTO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\bin\QLSV.DTO.pdb
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DTO\obj\Debug\QLSV.DTO.dll
+C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\QLSV.DTO\obj\Debug\QLSV.DTO.pdb
