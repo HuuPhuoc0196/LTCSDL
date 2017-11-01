@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\LTCSDL\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\Users\Admin\Desktop\LTCSDL\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\Users\Admin\Desktop\LTCSDL\LINQ\LINQ\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\LTCSDL\LINQ\LINQ\obj\x86\Debug\LINQ.exe
+C:\Users\Admin\Desktop\LTCSDL\LINQ\LINQ\obj\x86\Debug\LINQ.pdb

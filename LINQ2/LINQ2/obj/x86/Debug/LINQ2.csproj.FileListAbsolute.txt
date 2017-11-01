@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\bin\Debug\LINQ2.exe.config
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\bin\Debug\LINQ2.exe
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\bin\Debug\LINQ2.pdb
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\obj\x86\Debug\LINQ2.Form1.resources
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\obj\x86\Debug\LINQ2.Properties.Resources.resources
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\obj\x86\Debug\LINQ2.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\obj\x86\Debug\LINQ2.exe
+C:\Users\Admin\Desktop\LTCSDL\LINQ2\LINQ2\obj\x86\Debug\LINQ2.pdb
