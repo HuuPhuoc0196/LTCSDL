@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.Data;
 
-namespace QL.DAO
+namespace QLNV.DAO
 {
     public class DataProvider
     {

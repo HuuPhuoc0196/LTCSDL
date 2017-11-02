@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
-using QL.DAO;
-using QL.DTO;
+using QLNV.DAO;
+using QLNV.DTO;
 
-namespace QL.BUS
+namespace QLNV.BUS
 {
     public class NhanVienBUS
     {
@@ -37,6 +37,23 @@ namespace QL.BUS
             {
                 throw ex;
             }
+        }
+
+        public int Update(int id, string ho, string ten, string diaChi, string phone)
+        {
+            try
+            {
+                return (new NhanVienDAO().Update(id, ho, ten, diaChi, phone));
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                throw ex;
+            }
+
         }
     }
 }

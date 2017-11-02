@@ -35,6 +35,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShow)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,11 +49,13 @@
             this.Column3,
             this.Column4,
             this.Column5,
-            this.Column6});
+            this.Column6,
+            this.Column7});
             this.dgvShow.Location = new System.Drawing.Point(2, 2);
             this.dgvShow.Name = "dgvShow";
-            this.dgvShow.Size = new System.Drawing.Size(615, 419);
+            this.dgvShow.Size = new System.Drawing.Size(759, 419);
             this.dgvShow.TabIndex = 0;
+            this.dgvShow.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvShow_CellClick);
             // 
             // MaNV
             // 
@@ -89,11 +92,16 @@
             this.Column6.HeaderText = "Xóa";
             this.Column6.Name = "Column6";
             // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Sửa";
+            this.Column7.Name = "Column7";
+            // 
             // QLNV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 419);
+            this.ClientSize = new System.Drawing.Size(762, 419);
             this.Controls.Add(this.dgvShow);
             this.Name = "QLNV";
             this.Text = "Quản Lý Nhân Viên";
@@ -112,5 +120,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewButtonColumn Column6;
+        private System.Windows.Forms.DataGridViewButtonColumn Column7;
     }
 }

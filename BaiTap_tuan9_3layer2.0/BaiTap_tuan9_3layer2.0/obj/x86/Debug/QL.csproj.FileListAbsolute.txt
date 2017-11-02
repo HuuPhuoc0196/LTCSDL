@@ -8,3 +8,6 @@ C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\
 C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2.0.exe
 C:\Users\Admin\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2.0.pdb
+C:\Users\HuuPhuoc\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\bin\BaiTap_tuan9_3layer2.0.exe.config
+C:\Users\HuuPhuoc\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2.0.exe
+C:\Users\HuuPhuoc\Desktop\LTCSDL\BaiTap_tuan9_3layer2.0\BaiTap_tuan9_3layer2.0\obj\x86\Debug\BaiTap_tuan9_3layer2.0.pdb
