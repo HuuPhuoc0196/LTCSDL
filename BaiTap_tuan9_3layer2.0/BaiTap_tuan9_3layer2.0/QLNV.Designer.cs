@@ -59,7 +59,7 @@
             // 
             // MaNV
             // 
-            this.MaNV.DataPropertyName = "MaNV";
+            this.MaNV.DataPropertyName = "maNV";
             this.MaNV.HeaderText = "Mã NV";
             this.MaNV.Name = "MaNV";
             // 
@@ -77,13 +77,13 @@
             // 
             // Column4
             // 
-            this.Column4.DataPropertyName = "DiaChi";
+            this.Column4.DataPropertyName = "diaChi";
             this.Column4.HeaderText = "Địa chỉ";
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
-            this.Column5.DataPropertyName = "DienThoai";
+            this.Column5.DataPropertyName = "dienThoai";
             this.Column5.HeaderText = "Điện Thoại";
             this.Column5.Name = "Column5";
             // 
