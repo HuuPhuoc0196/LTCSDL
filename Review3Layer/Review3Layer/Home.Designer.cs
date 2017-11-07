@@ -84,6 +84,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = ">>   Sửa thông tin khách hàng   <<";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // button1
             // 
@@ -96,6 +97,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = ">>  Xóa thông tin khách hàng   <<";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Home
             // 
@@ -114,7 +116,7 @@
             this.MinimizeBox = false;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home";
+            this.Text = "Trang Chủ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

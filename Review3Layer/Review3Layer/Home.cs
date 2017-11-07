@@ -32,5 +32,21 @@ namespace Review3Layer
             frmInsert.ShowDialog();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeleteCustomers frmInsert = new DeleteCustomers();
+            frmInsert.ShowDialog();
+            this.Close();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UpdateCustomer frmInsert = new UpdateCustomer();
+            frmInsert.ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -43,5 +43,37 @@ namespace BUS
                 throw ex;
             }
         }
+
+        public int DeleteCustomer(string id)
+        {
+            try
+            {
+                return (new CustomerDAO().DeleteCustomer(id));
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int UpdateCustomer(string id, string pass, string name, string address, string email, string phone, string status, int accumulation)
+        {
+            try
+            {
+                return (new CustomerDAO().UpdateCustomer(id, pass, name, address, email, phone, status, accumulation));
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

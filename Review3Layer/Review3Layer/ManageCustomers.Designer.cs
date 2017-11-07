@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MaKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MatKhau = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -158,6 +157,7 @@
             this.btnDelete.TabIndex = 5;
             this.btnDelete.Text = ">>   Xóa Thông Tin KH   <<";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -168,6 +168,7 @@
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = ">>   Sửa Thông Tin KH   <<";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // ManageCustomers
             // 
@@ -185,7 +186,7 @@
             this.MinimizeBox = false;
             this.Name = "ManageCustomers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ManageCustomers";
+            this.Text = "Danh Sách Thông Tin Khách Hàng";
             this.Load += new System.EventHandler(this.ManageCustomers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -196,7 +197,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaKhachHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn MatKhau;

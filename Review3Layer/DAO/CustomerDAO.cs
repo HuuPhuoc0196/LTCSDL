@@ -84,5 +84,64 @@ namespace DAO
                 DisConnet();
             }
         }
+
+        public int DeleteCustomer(string id)
+        {
+            string sql = "DELETE FROM KHACHHANG WHERE MaKhachHang = @MaKhachHang";
+            CommandType type = CommandType.Text;
+            List<SqlParameter> parameters = new List<SqlParameter>();
+            parameters.Add(new SqlParameter("@MaKhachHang", id));
+            Connet();
+            try
+            {
+                return (ExecuteNonQuery(sql, parameters, type));
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                DisConnet();
+            }
+        }
+
+        public int UpdateCustomer(string id, string pass, string name, string address, string email, string phone, string status, int accumulation)
+        {
+            string sql = "UPDATE KHACHHANG SET MatKhau = @MatKhau, HoTen = @HoTen, DiaChi = @DiaChi, Email = @Email, DienThoai =  @DienThoai, TinhTrang = @TinhTrang, DiemTichLuy = @DiemTichLuy" +
+                " WHERE MaKhachHang = @MaKhachHang ";
+            CommandType type = CommandType.Text;
+            List<SqlParameter> parameters = new List<SqlParameter>();
+            parameters.Add(new SqlParameter("@MaKhachHang", id));
+            parameters.Add(new SqlParameter("@MatKhau", pass));
+            parameters.Add(new SqlParameter("@HoTen", name));
+            parameters.Add(new SqlParameter("@DiaChi", address));
+            parameters.Add(new SqlParameter("@Email", email));
+            parameters.Add(new SqlParameter("@DienThoai", phone));
+            parameters.Add(new SqlParameter("@TinhTrang", status));
+            parameters.Add(new SqlParameter("@DiemTichLuy", accumulation));
+
+            Connet();
+            try
+            {
+                return (ExecuteNonQuery(sql, parameters, type));
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                DisConnet();
+            }
+        }
     }
 }

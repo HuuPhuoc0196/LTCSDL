@@ -241,6 +241,7 @@
             this.button1.TabIndex = 21;
             this.button1.Text = ">>  Xóa Thông Tin KH  <<";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnUpdate
             // 
@@ -250,11 +251,13 @@
             this.btnUpdate.TabIndex = 22;
             this.btnUpdate.Text = ">>  Sửa Thông Tin KH  <<";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // InsertCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(902, 492);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.button1);
@@ -285,7 +288,7 @@
             this.MinimizeBox = false;
             this.Name = "InsertCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Thêm khách hàng";
+            this.Text = "Thêm Khách Hàng";
             this.Load += new System.EventHandler(this.InsertCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
