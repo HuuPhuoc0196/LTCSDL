@@ -8,3 +8,5 @@ C:\Users\Admin\Desktop\LTCSDL\BaiTap_Buoi_4\BaiTap_Buoi_4\obj\x86\Debug\Generate
 C:\Users\Admin\Desktop\LTCSDL\BaiTap_Buoi_4\BaiTap_Buoi_4\obj\x86\Debug\BaiTap_Buoi_4.exe
 C:\Users\Admin\Desktop\LTCSDL\BaiTap_Buoi_4\BaiTap_Buoi_4\obj\x86\Debug\BaiTap_Buoi_4.pdb
 C:\Users\Admin\Desktop\LTCSDL\BaiTap_Buoi_4\BaiTap_Buoi_4\obj\x86\Debug\BaiTap_Buoi_4.Select.resources
+C:\Users\HuuPhuoc\Desktop\LTCSDL\BaiTap_Buoi_4\BaiTap_Buoi_4\obj\x86\Debug\BaiTap_Buoi_4.exe
+C:\Users\HuuPhuoc\Desktop\LTCSDL\BaiTap_Buoi_4\BaiTap_Buoi_4\obj\x86\Debug\BaiTap_Buoi_4.pdb
